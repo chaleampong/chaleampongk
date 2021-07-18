@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Assistant Professor of Economics."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talk"]
+  mainSections = ["blog", "project", "talks"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -48,14 +48,14 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "violet"
+  theme = "forest"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
   # the custom scss file must be in the assets/ folder
   # add the filename name here, without extension
   # to use hex colors instead of named tachyons colors, include "hex" in filename
-  custom_theme = "forest" 
+  custom_theme = "" 
   
   # use an embedded font-family
   # serif options: Fraunces / EB Garamond / Bitter
@@ -76,7 +76,7 @@ enableEmoji = true
   [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://github.com/apreshill/apero"
+      url       = "https://github.com/chaleampong"
   [[params.social]]
       icon      = "facebook-square" # icon name without the 'fa-'
       icon_pack = "fab"
