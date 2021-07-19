@@ -16,7 +16,7 @@ A modern, beautiful, and easily configurable theme for Hugo websites. It offers 
 
 **Read the docs [here](https://hugo-apero-docs.netlify.com)**
 
-![screenshot](static/img/screenshot.png)
+![screenshot](static/img/screenshot.png)ss
 
 ## Three reasons to use Apéro
 
@@ -130,9 +130,9 @@ These are easy to see in your content folder structure (note the folder names ar
 
 ```json
 content/
-├── blog/
-├── project/
-└── talk/
+├── research/
+├── teaching/
+└── finecono/
 ```
 
 #### Lists of pages
