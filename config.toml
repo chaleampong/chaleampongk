@@ -33,7 +33,7 @@ enableEmoji = true
   description = "Assistant Professor of Economics."
   favicon = "/img/favicon.ico"
   logo = "/img/blogophonic-mark-dark.png"
-  mainSections = ["blog", "project", "talks"]
+  mainSections = ["research", "teaching", "finecono"]
   navallcaps = true
   # show/hide social icons in site header & footer
   # configure social icons and links below in [[params.social]]
@@ -48,7 +48,7 @@ enableEmoji = true
   # use a built-in color theme
   # one of: forest / grayscale / peach / plum /
   #         poppy / sky / violet / water 
-  theme = "forest"
+  theme = "sky"
   
   # or, leave theme empty & make your own palette
   # see docs at https://hugo-apero.netlify.app/blog/color-themes/
@@ -74,25 +74,29 @@ enableEmoji = true
   # Icon pack "fas" includes solid icons, see: https://fontawesome.com/icons?d=gallery&s=solid&m=free
   # Icon pack "far" includes regular icons, see: https://fontawesome.com/icons?d=gallery&s=regular&m=free
   [[params.social]]
+      icon      = "envelope" # icon name without the 'fa-'
+      icon_pack = "fas"
+      url       = "mailto:chaleampong@econ.tu.ac.th"
+  [[params.social]]
       icon      = "github" # icon name without the 'fa-'
       icon_pack = "fab"
       url       = "https://github.com/chaleampong"
   [[params.social]]
-      icon      = "facebook-square" # icon name without the 'fa-'
+      icon      = "researchgate" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.facebook.com/hashtag/ap%C3%A9ro"
+      url       = "https://www.researchgate.net/profile/Chaleampong-Kongcharoen"
   [[params.social]]
-      icon      = "instagram" # icon name without the 'fa-'
+      icon      = "linkedin" # icon name without the 'fa-'
       icon_pack = "fab"
-      url       = "https://www.instagram.com/explore/tags/apero/"
-  [[params.social]]
-      icon      = "twitter" # icon name without the 'fa-'
-      icon_pack = "fab"
-      url       = "https://twitter.com/hashtag/apéro"
-  [[params.social]]
-      icon      = "rss" # icon name without the 'fa-'
-      icon_pack = "fas"
-      url       = "/blog/index.xml"
+      url       = "https://www.linkedin.com/in/chaleampong-kongcharoen-b3491a14/"
+ # [[params.social]]
+#      icon      = "twitter" # icon name without the 'fa-'
+#      icon_pack = "fab"
+#      url       = "https://twitter.com/hashtag/apéro"
+#  [[params.social]]
+#      icon      = "rss" # icon name without the 'fa-'
+#      icon_pack = "fas"
+#      url       = "/blog/index.xml"
 
 [taxonomies]
   category = "categories"
@@ -102,26 +106,27 @@ enableEmoji = true
 [menu]
   [[menu.header]]
     name = "About"
-    title = "About Blogophonic"
+    title = "About Chaleampong"
     url = "/about/"
     weight = 1
   [[menu.header]]
-    name = "Blog"
-    title = "Blog"
-    url = "/blog/"
+    name = "Research"
+    title = "Research"
+    url = "/research/"
     weight = 2
   [[menu.header]]
-    name = "Projects"
-    title = "Project Portfolio"
-    url = "/project/"
+    name = "Teaching"
+    title = "Teaching"
+    url = "/teaching/"
     weight = 3
   [[menu.header]]
-    name = "Talks"
-    title = "Talks"
-    url = "/talk/"
+    name = "Finecono"
+    title = "Financial Econo"
+    url = "/finecono/"
     weight = 4
+
     
-  # Configure footer  
+    # Configure footer  
   [[menu.footer]]
     name = "License"
     title = "License"
